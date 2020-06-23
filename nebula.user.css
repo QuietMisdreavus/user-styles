@@ -1,0 +1,21 @@
+/* ==UserStyle==
+@name           Nebula Expandable Video Player
+@namespace      github.com/QuietMisdreavus/user-styles
+@version        1.0.0
+@description    Makes the video player on Nebula expand to fill more of the screen.
+@license        CC0-1.0
+@author         QuietMisdreavus
+==/UserStyle== */
+
+@-moz-document url-prefix("https://watchnebula.com/videos/") {
+    div[id^="zype"] {
+        --max-width: 80vw;
+        --max-height: 80vh;
+        --width: min(calc(var(--max-height) / 0.5625), var(--max-width));
+        --height: calc(var(--width) * 0.5625);
+        width: var(--width);
+        height: var(--height);
+        min-width: 960px;
+        min-height: 540px;
+    }
+}
