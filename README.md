@@ -29,6 +29,10 @@ your own instance domain.
 
 [glitch-css]: https://raw.githubusercontent.com/QuietMisdreavus/user-styles/master/glitch.user.css
 
+[Narrower Wikipedia][wikipedia-css]: Narrows the article content of Wikipedia.
+
+[wikipedia-css]: https://raw.githubusercontent.com/QuietMisdreavus/user-styles/master/wikipedia.user.css
+
 ## license
 
 my user styles are licensed under the Creative Commons Zero v1.0 Universal license. see the LICENSE

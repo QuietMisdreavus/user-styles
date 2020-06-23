@@ -1,0 +1,21 @@
+/* ==UserStyle==
+@name           Narrower Wikipedia
+@namespace      github.com/QuietMisdreavus/user-styles
+@version        1.0.0
+@description    Narrows the article content of Wikipedia.
+@homepageURL    https://github.com/QuietMisdreavus/user-styles
+@updateURL      https://raw.githubusercontent.com/QuietMisdreavus/user-styles/master/wikipedia.user.css
+@license        CC0-1.0
+@author         QuietMisdreavus
+==/UserStyle== */
+
+@-moz-document domain("wikipedia.org") {
+    #bodyContent {
+        max-width: 48rem;
+        margin: 0 auto;
+    }
+
+    #firstHeading, #siteSub {
+        text-align: center;
+    }
+}
