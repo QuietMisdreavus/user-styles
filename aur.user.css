@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           Narrower AUR
+@namespace      github.com/QuietMisdreavus/user-styles
+@version        1.0.0
+@description    Makes the content area of the AUR web interface narrower.
+@homepageURL    https://github.com/QuietMisdreavus/user-styles
+@updateURL      https://raw.githubusercontent.com/QuietMisdreavus/user-styles/master/aur.user.css
+@license        CC0-1.0
+@author         QuietMisdreavus
+==/UserStyle== */
+
+@-moz-document domain("aur.archlinux.org") {
+    #content {
+        max-width: 1000px;
+    }
+}

@@ -17,6 +17,11 @@ more of the screen.
 [nebula-css]: https://raw.githubusercontent.com/QuietMisdreavus/user-styles/master/nebula.user.css
 [Nebula]: https://watchnebula.com
 
+[Narrower AUR][aur-css]: Makes the content area of [the AUR web interface][AUR] narrower.
+
+[aur-css]: https://raw.githubusercontent.com/QuietMisdreavus/user-styles/master/aur.user.css
+[AUR]: https://aur.archlinux.org
+
 ## license
 
 my user styles are licensed under the Creative Commons Zero v1.0 Universal license. see the LICENSE
