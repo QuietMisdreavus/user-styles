@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           Mastodon/Glitch fix
+@namespace      github.com/QuietMisdreavus/user-styles
+@version        1.0.0
+@description    Removes excess blank div underneath the Mastodon web view.
+@homepageURL    https://github.com/QuietMisdreavus/user-styles
+@updateURL      https://raw.githubusercontent.com/QuietMisdreavus/user-styles/master/glitch.user.css
+@license        CC0-1.0
+@author         QuietMisdreavus
+==/UserStyle== */
+
+@-moz-document domain("squad.town") {
+    div.logo-resources {
+        display: none;
+    }
+}

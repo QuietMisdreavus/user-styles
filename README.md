@@ -22,6 +22,13 @@ more of the screen.
 [aur-css]: https://raw.githubusercontent.com/QuietMisdreavus/user-styles/master/aur.user.css
 [AUR]: https://aur.archlinux.org
 
+[Mastodon/Glitch fix][glitch-css]: Removes excess blank div underneath the Mastodon web view. I'm
+not sure if this only applies to my own Mastodon instance, but that's where it's scoped to. If you
+want to apply this yourself and you *don't* have a squad.town account, copy and modify it to use
+your own instance domain.
+
+[glitch-css]: https://raw.githubusercontent.com/QuietMisdreavus/user-styles/master/glitch.user.css
+
 ## license
 
 my user styles are licensed under the Creative Commons Zero v1.0 Universal license. see the LICENSE
