@@ -11,9 +11,10 @@ can load them, but that's the extension i use.
 
 ## styles
 
-[Nebula Expandable Video Player](nebula.user.css): Makes the video player on [Nebula] expand to fill
+[Nebula Expandable Video Player][nebula-css]: Makes the video player on [Nebula] expand to fill
 more of the screen.
 
+[nebula-css]: https://raw.githubusercontent.com/QuietMisdreavus/user-styles/master/nebula.user.css
 [Nebula]: https://watchnebula.com
 
 ## license
