@@ -9,7 +9,7 @@
 @author         QuietMisdreavus
 ==/UserStyle== */
 
-@-moz-document url-prefix("https://watchnebula.com/videos/") {
+@-moz-document url-prefix("https://nebula.app/videos/") {
     div[id^="zype"] {
         --max-width: 80vw;
         --max-height: 80vh;
