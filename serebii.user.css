@@ -1,0 +1,61 @@
+/* ==UserStyle==
+@name                   Serebii font bump
+@author                 QuietMisdreavus
+@version                1.0.0
+@preprocessor           default
+@namespace              github.com/QuietMisdreavus/user-styles
+@description            Increases the font size on Serebii and increases some other page elements to match.
+@homepageURL            https://github.com/QuietMisdreavus/user-styles
+@updateURL              https://raw.githubusercontent.com/QuietMisdreavus/user-styles/master/serebii.user.css
+@license                CC0-1.0
+==/UserStyle== */
+
+@-moz-document domain("serebii.net")
+{
+	body, .foocontent {
+		font-size: 1rem;
+	}
+	
+	#lbar, #rbar {
+		font-size: 0.8rem;
+		flex-basis: 25ch;
+	}
+	
+	#rbar .art {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	#rbar > * {
+		width: 100%;
+	}
+	
+	.alterdex br {
+		display: none;
+	}
+	
+	h1 {
+		font-size: 2rem;
+	}
+	
+	h2 {
+		font-size: 1.5rem;
+	}
+	
+	.anctab td {
+		width: unset;
+	}
+	
+	img[src*="type"] {
+		width: 5ch;
+	}
+	
+	img[src*="type"][src$="2.gif"] {
+		width: unset;
+		height: 5ch;
+	}
+	
+	img[src*="icon"] {
+		min-width: 5ch;
+	}
+}

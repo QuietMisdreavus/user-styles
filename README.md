@@ -33,6 +33,11 @@ your own instance domain.
 
 [wikipedia-css]: https://raw.githubusercontent.com/QuietMisdreavus/user-styles/master/wikipedia.user.css
 
+[Serebii font bump][serebii-css]: Increases the text size on <https://serebii.net> and also bumps
+some images up in size to match.
+
+[serebii-css]: https://raw.githubusercontent.com/QuietMisdreavus/user-styles/master/serebii.user.css
+
 ## license
 
 my user styles are licensed under the Creative Commons Zero v1.0 Universal license. see the LICENSE
