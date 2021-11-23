@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Nebula Expandable Video Player
 @namespace      github.com/QuietMisdreavus/user-styles
-@version        1.1.0
+@version        1.1.1
 @description    Makes the video player on Nebula expand to fill more of the screen.
 @homepageURL    https://github.com/QuietMisdreavus/user-styles
 @updateURL      https://raw.githubusercontent.com/QuietMisdreavus/user-styles/master/nebula.user.css
@@ -20,4 +20,4 @@
         min-width: 960px;
         min-height: 540px;
     }
-
+}
